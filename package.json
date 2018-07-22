@@ -1,0 +1,42 @@
+{
+  "name": "chiwawa",
+  "version": "0.0.0",
+  "description": "Turn blog posts into tweets",
+  "main": "index.js",
+  "module": "chiwawa.js",
+  "bin": {
+    "chiwawa": "node -r esm ./cli.js"
+  },
+  "scripts": {
+    "start": "node -r esm ./cli.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "snippet",
+    "blog",
+    "converter"
+  ],
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "esm": "^3.0.61",
+    "globby": "^8.0.1",
+    "hermit": "^0.2.2",
+    "inquirer": "^6.0.0",
+    "puppeteer": "^1.5.0",
+    "query-string": "^6.1.0",
+    "turndown": "^4.0.2"
+  },
+  "devDependencies": {
+    "np": "^3.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoDF/chiwawa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HugoDF/chiwawa/issues"
+  },
+  "homepage": "https://github.com/HugoDF/chiwawa#readme"
+}
