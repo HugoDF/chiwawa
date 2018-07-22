@@ -6,9 +6,6 @@ import globby from 'globby';
 import { extractSnippets } from './extract';
 import { format } from './format';
 
-// import { parser } from 'marked';
-// import { extractSnippets } from './extract-md';
-
 const hermitAsync = promisify(hermit);
 
 const flatten = arr => arr.reduce((prev, curr) => prev.concat(curr), []);
