@@ -24,6 +24,7 @@
     "globby": "^8.0.1",
     "hermit": "^0.2.2",
     "inquirer": "^6.0.0",
+    "marked": "^0.4.0",
     "puppeteer": "^1.5.0",
     "query-string": "^6.1.0",
     "turndown": "^4.0.2"
