@@ -5,7 +5,7 @@
   "main": "index.js",
   "module": "chiwawa.js",
   "bin": {
-    "chiwawa": "node -r esm ./cli.js"
+    "chiwawa": "./cli.js"
   },
   "scripts": {
     "start": "node -r esm ./cli.js",
