@@ -1,6 +1,6 @@
 {
   "name": "chiwawa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Turn blog posts into tweets",
   "main": "index.js",
   "module": "chiwawa.js",
